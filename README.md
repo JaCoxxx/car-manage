@@ -1,6 +1,6 @@
-title: 基于B/S模式的汽车保养维修管理系统设计与实现
-author: 吴志远
-time: 2019年06月
+- title: 基于B/S模式的汽车保养维修管理系统设计与实现
+- author: 吴志远
+- time: 2019年06月
 
 ## 项目配置
 
@@ -42,22 +42,22 @@ insert into employees set id='10001',username='admin',position='管理员',phone
 
 ### 项目结构
 
-- config            webpack配置
-- public            入口文件
-- scripts           配置文件
-- server            后端
-  - db              数据库配置及交互
-  - router          后端路由
-  - utils           后端工具库
-  - server.js       后端启动文件
-- src               前端
-  - axios           前端接口
-  - commons         公共组件
-  - components      页面组件
-  - reducer         数据状态
-  - routes          路由
-  - style           样式
-  - utils           前端工具库
+- config            --- webpack配置
+- public            --- 入口文件
+- scripts           --- 配置文件
+- server            --- 后端
+  - db              --- 数据库配置及交互
+  - router          --- 后端路由
+  - utils           --- 后端工具库
+  - server.js       --- 后端启动文件
+- src               --- 前端
+  - axios           --- 前端接口
+  - commons         --- 公共组件
+  - components      --- 页面组件
+  - reducer         --- 数据状态
+  - routes          --- 路由
+  - style           --- 样式
+  - utils           --- 前端工具库
   - App.js          
   - index.js
   - serviceWorker.js
