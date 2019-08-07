@@ -1,0 +1,30 @@
+.ant-layout-header .logo {
+    width: 120px;
+    height: 31px;
+    /* background: rgba(255, 255, 255, .2); */
+    margin: 16px 24px 16px 0;
+    float: left;
+    line-height: 32px;
+    text-align: center;
+}
+
+.ant-form .login-form-button {
+    width: 100%;
+}
+
+.ant-card-bordered {
+    text-align: center;
+}
+
+.ant-card-bordered .ant-card-cover img {
+    /* width: 700px; */
+    margin: 0 auto;
+}
+
+tr.ant-table-expanded-row.ant-table-expanded-row-level-1:hover {
+    background-color: #fff !important;
+}
+
+i..ant-alert-icon {
+    top: 8.5px;
+}
